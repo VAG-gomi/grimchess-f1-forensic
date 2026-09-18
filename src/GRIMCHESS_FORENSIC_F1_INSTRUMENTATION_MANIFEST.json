@@ -1,0 +1,150 @@
+{
+  "instrumentation_id": "F1",
+  "baseline_path": "/home/ubuntu/work/GrimChess-Current-Forensic-Baseline/grimchess-mobile",
+  "instrumented_path": "/home/ubuntu/work/GrimChess-Current-Forensic-Instrumented/grimchess-mobile",
+  "frozen_apk_sha256": "61a00ce9c1fb54a995cd6351eb15add9a46a5b60774a2264c4fa4b9e3f301fc3",
+  "baseline_manifest_sha256": "da485125a2ed5f91e971d69d2eedc3c63a7ea108497489807e3e7b73843ecbc1",
+  "instrumentation_timestamp": "2026-09-15T18:39:02Z",
+  "stockfish_js_sha256": "e2958bb89fc6ee0faedde87284bbb7e14da2ab224f06ca1bd82e62eaca87d00b",
+  "stockfish_wasm_sha256": "a7acf7f20cb81d755b39b3dd42a4bdfd6e8c8d3d203d9fbdc525e40e1f68df08",
+  "entries": [
+    {
+      "path": "src/App.tsx",
+      "sha256": "bbcb9e95b65f77f677787ac145199daa82add1e9db02fa606660834231397bbe",
+      "baseline_sha256": "2dff58d5369ab55b861dad8bf6e83810311245d94212f152821aea2722edc712",
+      "change": "OBSERVATIONAL_LOGGING_AND_EXPORT"
+    },
+    {
+      "path": "src/simulator/StockfishAdapter.ts",
+      "sha256": "5774b51a15b9fc17c86b08f5316ac914696854f33ad89eae5ff739a25476a90a",
+      "baseline_sha256": "3241e2fd20fa3ca9b2c6202778ab89add329b28d6045af56ce767507ed452773",
+      "change": "OBSERVATIONAL_LOGGING_AND_EXPORT"
+    },
+    {
+      "path": "src/simulator/IntegrityGuards.ts",
+      "sha256": "9853227aeedaeff011da1da8d37fc23f66ea525f921480b5ee0e19808312a4b2",
+      "baseline_sha256": "71ffd6374734765bf841201d27e28c476ddf27142719c74066d6d60c925979e0",
+      "change": "OBSERVATIONAL_LOGGING_AND_EXPORT"
+    },
+    {
+      "path": "src/simulator/paradox/PredictionMap.ts",
+      "sha256": "5ab6ab555b0ed9f28f863471d3664ea9a8a79811496d7fe6b17aa2bd51c3a175",
+      "baseline_sha256": "7c9fe03bf92c9a266302e1165374c765f78cb47fe84a8f5d2cdecfcbcbedc7b5",
+      "change": "OBSERVATIONAL_LOGGING_AND_EXPORT"
+    },
+    {
+      "path": "src/forensics/ForensicTrace.ts",
+      "sha256": "04e91a30abf9472b6171368e6ee4fd310a50e33e5243d714fac633718ef2a8fd",
+      "baseline_sha256": null,
+      "change": "NEW_FORENSIC_TRACE_MODULE"
+    },
+    {
+      "path": "package.json",
+      "sha256": "8dea622939b15e6913efdc02bb20dffe3c6d457bd86d6745daa6bfa48633c8af",
+      "baseline_sha256": "8dea622939b15e6913efdc02bb20dffe3c6d457bd86d6745daa6bfa48633c8af",
+      "change": "UNCHANGED_BUILD_INPUT"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "sha256": "35763217e08d637b74a2617415ec9dc178fc17c3323708a1497e352d415f4748",
+      "baseline_sha256": "35763217e08d637b74a2617415ec9dc178fc17c3323708a1497e352d415f4748",
+      "change": "UNCHANGED_BUILD_INPUT"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "e09b1d7398a757eae35c19efcd50710803fe8df7e8d6414d2b6f595166ebf906",
+      "baseline_sha256": "e09b1d7398a757eae35c19efcd50710803fe8df7e8d6414d2b6f595166ebf906",
+      "change": "UNCHANGED_BUILD_INPUT"
+    },
+    {
+      "path": "tsconfig.node.json",
+      "sha256": "9e2abb169ea87b7190613a1d4da57ca608463a453bd4231fa3aeee5e308370dd",
+      "baseline_sha256": "9e2abb169ea87b7190613a1d4da57ca608463a453bd4231fa3aeee5e308370dd",
+      "change": "UNCHANGED_BUILD_INPUT"
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "643e6b046ff9e3825ef55fae8ca4b36a4e4d6cc8000f2d885387b3263528b568",
+      "baseline_sha256": "643e6b046ff9e3825ef55fae8ca4b36a4e4d6cc8000f2d885387b3263528b568",
+      "change": "UNCHANGED_BUILD_INPUT"
+    },
+    {
+      "path": "capacitor.config.ts",
+      "sha256": "80a55bf3ebed95c76c7fc7b55da9f2eb23229a5318cf247b911a64ed6650403b",
+      "baseline_sha256": "80a55bf3ebed95c76c7fc7b55da9f2eb23229a5318cf247b911a64ed6650403b",
+      "change": "UNCHANGED_BUILD_INPUT"
+    },
+    {
+      "path": "android/settings.gradle",
+      "sha256": "6ce098d15ebd69b44c4ecd786bca1bdc366340d2459b2af4d7bb0ab317aa9669",
+      "baseline_sha256": "6ce098d15ebd69b44c4ecd786bca1bdc366340d2459b2af4d7bb0ab317aa9669",
+      "change": "UNCHANGED_BUILD_INPUT"
+    },
+    {
+      "path": "android/build.gradle",
+      "sha256": "c05c6e67af5651a56aecb0908027be42c84c03dad529af4839dbdc4393405158",
+      "baseline_sha256": "c05c6e67af5651a56aecb0908027be42c84c03dad529af4839dbdc4393405158",
+      "change": "UNCHANGED_BUILD_INPUT"
+    },
+    {
+      "path": "android/variables.gradle",
+      "sha256": "47391f3ef8551f8cdeabcc383a99bbee6927d8b4191cfaf3027353fe25741852",
+      "baseline_sha256": "47391f3ef8551f8cdeabcc383a99bbee6927d8b4191cfaf3027353fe25741852",
+      "change": "UNCHANGED_BUILD_INPUT"
+    },
+    {
+      "path": "android/gradle.properties",
+      "sha256": "3bab15c5b8bc4c2f4b6cf525497d15ad4abca53a460e6dd2eb0f0135817d31e6",
+      "baseline_sha256": "3bab15c5b8bc4c2f4b6cf525497d15ad4abca53a460e6dd2eb0f0135817d31e6",
+      "change": "UNCHANGED_BUILD_INPUT"
+    },
+    {
+      "path": "android/app/build.gradle",
+      "sha256": "616fa335f1c4ebd4b23a16d077413354b400c649e2ee189bdf3c1ca823aeb4d1",
+      "baseline_sha256": "616fa335f1c4ebd4b23a16d077413354b400c649e2ee189bdf3c1ca823aeb4d1",
+      "change": "UNCHANGED_BUILD_INPUT"
+    },
+    {
+      "path": "android/app/capacitor.build.gradle",
+      "sha256": "4d276243789e3a048e7a360f222572e17672dfdffa1c9e05f18529c935c51f9f",
+      "baseline_sha256": "4d276243789e3a048e7a360f222572e17672dfdffa1c9e05f18529c935c51f9f",
+      "change": "UNCHANGED_BUILD_INPUT"
+    },
+    {
+      "path": "android/app/proguard-rules.pro",
+      "sha256": "1cf8c57e8f79c250b0af9c1a5a4edad71a5c348a79ab70243b6bae086c150ad2",
+      "baseline_sha256": "1cf8c57e8f79c250b0af9c1a5a4edad71a5c348a79ab70243b6bae086c150ad2",
+      "change": "UNCHANGED_BUILD_INPUT"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "252070f2b15e40fd80dc5f8f3a6ae8a2f6928bec943889e189a78b294e8f36a5",
+      "baseline_sha256": "252070f2b15e40fd80dc5f8f3a6ae8a2f6928bec943889e189a78b294e8f36a5",
+      "change": "UNCHANGED_BUILD_INPUT"
+    },
+    {
+      "path": "android/app/src/main/AndroidManifest.xml",
+      "sha256": "1012280e069bd8ad20829391d8acafff9a1ac1f7f1fefb6c2c0c493a34990b1e",
+      "baseline_sha256": "1012280e069bd8ad20829391d8acafff9a1ac1f7f1fefb6c2c0c493a34990b1e",
+      "change": "UNCHANGED_BUILD_INPUT"
+    },
+    {
+      "path": "public/stockfish/stockfish-nnue-16-single.js",
+      "sha256": "e2958bb89fc6ee0faedde87284bbb7e14da2ab224f06ca1bd82e62eaca87d00b",
+      "baseline_sha256": "e2958bb89fc6ee0faedde87284bbb7e14da2ab224f06ca1bd82e62eaca87d00b",
+      "change": "UNCHANGED_BUILD_INPUT"
+    },
+    {
+      "path": "public/stockfish/stockfish-nnue-16-single.wasm",
+      "sha256": "a7acf7f20cb81d755b39b3dd42a4bdfd6e8c8d3d203d9fbdc525e40e1f68df08",
+      "baseline_sha256": "a7acf7f20cb81d755b39b3dd42a4bdfd6e8c8d3d203d9fbdc525e40e1f68df08",
+      "change": "UNCHANGED_BUILD_INPUT"
+    }
+  ],
+  "build_status": {
+    "typescript_vite": "PASS",
+    "capacitor_sync": "PASS",
+    "android_compile": "BLOCKED_ANDROID_SDK_NOT_INSTALLED",
+    "tests": "PASS_38_OF_38"
+  }
+}

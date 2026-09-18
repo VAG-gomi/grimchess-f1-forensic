@@ -1,0 +1,334 @@
+{
+  "frozen_apk_sha256": "61a00ce9c1fb54a995cd6351eb15add9a46a5b60774a2264c4fa4b9e3f301fc3",
+  "baseline_reconstruction_timestamp": "2026-09-15T18:26:37Z",
+  "git_head_of_original_project": "8c70ae800dcbf30768f5a95f7bd6e1c43c11e0ff",
+  "git_status_of_original_project": "dirty; original preserved at /home/ubuntu/work/source-archive-inspect/Grimchess-Engine",
+  "historical_git_commit_identified": false,
+  "baseline_directory": "/home/ubuntu/work/GrimChess-Current-Forensic-Baseline",
+  "entries": [
+    {
+      "path": "grimchess-mobile/src/App.tsx",
+      "sha256": "2dff58d5369ab55b861dad8bf6e83810311245d94212f152821aea2722edc712",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/__tests__/integration.test.ts",
+      "sha256": "ff7414864a81480b981794f295f121dbba4ab8f15399b99a62bd470402ba7f66",
+      "origin": "PROJECT_MATCH",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/__tests__/paradox.test.ts",
+      "sha256": "04252b96c30cf6c665e954ec6fc4d0ca6ae91b0a655cb29aad3c342ec0ab964a",
+      "origin": "PROJECT_MATCH",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/__tests__/simulator.test.ts",
+      "sha256": "cc71d6e1bef6f6929ede3e2b34fb759293c7c6e7107b5efddc976575748bd161",
+      "origin": "PROJECT_MATCH",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/components/Chat.tsx",
+      "sha256": "ec4e6aea6886c727bb00cc5e5336441d8a80ec9c2bed0320f888b9d5a066d42c",
+      "origin": "PROJECT_MATCH",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/components/ForcePanel.tsx",
+      "sha256": "290cd2554d85256a6f375131cc29e8c498635aa0a580ebafa89d3c2cf7cf790e",
+      "origin": "PROJECT_MATCH",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/components/InitScreen.tsx",
+      "sha256": "df56f2ef82a30746a4445016190b0c344f290e0c2f3a66596c157aa5e97af1ef",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/components/ResumeScreen.tsx",
+      "sha256": "95c9a9589fe0d24763773a2603e1511056dbec5dcb44d68ac2abd2d9fe3f70d8",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/components/Sparkline.tsx",
+      "sha256": "8169733bd2ce75c4ee480a8dbc21995ff2e3d34a2afb526d20363db772d5a3fb",
+      "origin": "PROJECT_MATCH",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/engine/stockfish.ts",
+      "sha256": "ee144c39f4714647c587ab8a95327167a55f6d3573eabcd5f1032578051bf6b2",
+      "origin": "PROJECT_MATCH",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/hooks/useForces.ts",
+      "sha256": "b891ab3df5e5c6bf5f199c93795825ba0a47591fd3843ae319a057e28541b682",
+      "origin": "PROJECT_MATCH",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/hooks/useOracle.ts",
+      "sha256": "47eef1a43a8268cb59a2e1e3f1d09dc51be6746016fabb83cf1ab2c4300e3e9c",
+      "origin": "PROJECT_MATCH",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/hooks/useStorage.ts",
+      "sha256": "a3e3ca83a2709eb9e0bdf8793df9431a888b770e10b4624bb221bb76394a9ea9",
+      "origin": "PROJECT_MATCH",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/main.tsx",
+      "sha256": "03f48a8ca753892031d7ba25543788efc5f3c03f2668c273b24788206cb740b6",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/BenchmarkRunner.ts",
+      "sha256": "947bb5a7490cfabdabec5118656df5e10c00b5207ca04ab150adc7ecf45d6187",
+      "origin": "PROJECT_MATCH",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/BenchmarkSuite.ts",
+      "sha256": "8e69c33d8dc704703f5a1085f62e0131fc957b4ebb964aac4ffb46821d5dffb1",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/ChessSimulator.ts",
+      "sha256": "2bef5501246fc15e85da0b22df71f4dc111943fe89bc244ff52750278430469c",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/ForceModel.ts",
+      "sha256": "a54c441996a0aa3b047f8060d3d1a3b456a1b3a8ce1aeddce496c89fca9705cd",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/IntegrityGuards.ts",
+      "sha256": "71ffd6374734765bf841201d27e28c476ddf27142719c74066d6d60c925979e0",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/MoveClassifier.ts",
+      "sha256": "bcc6962c36b8be64c63b1fa4e5b8eebac1ce12ed87dcc9bc8a295c0d7e69de7e",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/OracleService.ts",
+      "sha256": "04008e82f34e8c27981169bf97a68d9f07187088707070f0e5904b115d614ab9",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/ReplayStore.ts",
+      "sha256": "bf3228027d05b7b09abe4e877b2fd2d0ea4349867d55fd3251505d4c95b1a129",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/StockfishAdapter.ts",
+      "sha256": "3241e2fd20fa3ca9b2c6202778ab89add329b28d6045af56ce767507ed452773",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/index.ts",
+      "sha256": "7c1e2de0f884ac48d73e667b0b15f51f39d5e20eb3a2e51aaa13c1b3f8368dde",
+      "origin": "PROJECT_MATCH",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/paradox/ContradictionDetector.ts",
+      "sha256": "a28847c041e135a34c4525370e3e5afb3cd4f90a0517a0593b7fb401c71ffb92",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/paradox/LiveAdapter.ts",
+      "sha256": "6cb0be36ad4df61a0ad9962ca2bc916b1899157e99bec2eaf9133e755ceb1206",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/paradox/MapRevisionEngine.ts",
+      "sha256": "ee165c4006fdb169ec66309b22662cc3d8f0766b3aa97ecf4602734b34c63956",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/paradox/ParadoxEngine.ts",
+      "sha256": "73efe96c07171d60977bda43fdc34202474f300270ab60ccc315c09f0d2ed86c",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/paradox/PredictionMap.ts",
+      "sha256": "7c9fe03bf92c9a266302e1165374c765f78cb47fe84a8f5d2cdecfcbcbedc7b5",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/paradox/index.ts",
+      "sha256": "67d97270a60cf16da94ff0694bb6b5bed2c30f64be6f4a6e3dc5c931d9a8638f",
+      "origin": "PROJECT_MATCH",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/paradox/types.ts",
+      "sha256": "7f1850a9d50c30ea972dcebfee7df2fa86a076bdea3dfbd7316c55edeb8dda56",
+      "origin": "APK_RECOVERED",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/simulator/types.ts",
+      "sha256": "612c0afd32840e55f77d70d8b7295d686b96c8f4840173bd924e75181764f659",
+      "origin": "PROJECT_MATCH",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/types/index.ts",
+      "sha256": "5d939515fa1d3bcf8e33cc3bc5a6139a915503db61942e457ff44e476bbdc741",
+      "origin": "PROJECT_MATCH",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/src/vite-env.d.ts",
+      "sha256": "daa440f49d2508282557d1101ec80d371497e68c2bf4c01012ad1cc66717fb79",
+      "origin": "PROJECT_MATCH",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/package.json",
+      "sha256": "8dea622939b15e6913efdc02bb20dffe3c6d457bd86d6745daa6bfa48633c8af",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/pnpm-lock.yaml",
+      "sha256": "35763217e08d637b74a2617415ec9dc178fc17c3323708a1497e352d415f4748",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/tsconfig.json",
+      "sha256": "e09b1d7398a757eae35c19efcd50710803fe8df7e8d6414d2b6f595166ebf906",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/tsconfig.node.json",
+      "sha256": "9e2abb169ea87b7190613a1d4da57ca608463a453bd4231fa3aeee5e308370dd",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/vite.config.ts",
+      "sha256": "643e6b046ff9e3825ef55fae8ca4b36a4e4d6cc8000f2d885387b3263528b568",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/capacitor.config.ts",
+      "sha256": "80a55bf3ebed95c76c7fc7b55da9f2eb23229a5318cf247b911a64ed6650403b",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/android/settings.gradle",
+      "sha256": "6ce098d15ebd69b44c4ecd786bca1bdc366340d2459b2af4d7bb0ab317aa9669",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/android/build.gradle",
+      "sha256": "c05c6e67af5651a56aecb0908027be42c84c03dad529af4839dbdc4393405158",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/android/variables.gradle",
+      "sha256": "47391f3ef8551f8cdeabcc383a99bbee6927d8b4191cfaf3027353fe25741852",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/android/gradle.properties",
+      "sha256": "3bab15c5b8bc4c2f4b6cf525497d15ad4abca53a460e6dd2eb0f0135817d31e6",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/android/app/build.gradle",
+      "sha256": "616fa335f1c4ebd4b23a16d077413354b400c649e2ee189bdf3c1ca823aeb4d1",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/android/app/capacitor.build.gradle",
+      "sha256": "4d276243789e3a048e7a360f222572e17672dfdffa1c9e05f18529c935c51f9f",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/android/app/proguard-rules.pro",
+      "sha256": "1cf8c57e8f79c250b0af9c1a5a4edad71a5c348a79ab70243b6bae086c150ad2",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/android/gradlew",
+      "sha256": "e0108761fee312b7b373ee96c0870cab5c167e664ac507776814b1d59e9b3bad",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/android/gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "252070f2b15e40fd80dc5f8f3a6ae8a2f6928bec943889e189a78b294e8f36a5",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/android/app/src/main/AndroidManifest.xml",
+      "sha256": "1012280e069bd8ad20829391d8acafff9a1ac1f7f1fefb6c2c0c493a34990b1e",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/public/stockfish/stockfish-nnue-16-single.js",
+      "sha256": "e2958bb89fc6ee0faedde87284bbb7e14da2ab224f06ca1bd82e62eaca87d00b",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/public/stockfish/stockfish-nnue-16-single.wasm",
+      "sha256": "a7acf7f20cb81d755b39b3dd42a4bdfd6e8c8d3d203d9fbdc525e40e1f68df08",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/public/stockfish/stockfish-nnue-16.js",
+      "sha256": "a4323fce1dd227135d2a4f00687bdb503a37f3a14f0ecc8199b37ea50fd4ab9e",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    },
+    {
+      "path": "grimchess-mobile/public/stockfish/stockfish-nnue-16.wasm",
+      "sha256": "6dee4e00888ec42efd1f74a8c605b600a59f5de79f7cbfdb432dff4f1e078bf5",
+      "origin": "PROJECT_REQUIRED_BUILD_INPUT",
+      "verified": true
+    }
+  ]
+}
